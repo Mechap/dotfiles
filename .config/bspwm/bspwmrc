@@ -1,0 +1,32 @@
+#! /bin/sh
+xrandr --output eDP1 --scale 0.7 &
+sudo python3 ~/Download/auto-cpufreq/auto-cpufreq/power_helper.py &
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+~/.config/polybar/launch.sh --blocks
+
+bspc config normal_border_color 	"#32302f"
+bspc config focused_border_color  	"#8ec07c"
+#928374
+
+bspc config border_width        3 
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+# Autostart
+picom --experimental-backends &
+feh --bg-fill ~/Pictures/forest-2.jpg
+
+setxkbmap -option grp:alt_shift_toggle us,dvorak &

@@ -1,0 +1,5 @@
+require('plugins')
+require('default')
+require('lsp')
+require('tabline')
+require('treesitter')
