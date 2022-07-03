@@ -123,3 +123,13 @@ super + {Left,Down,Up,Right}
 # screenshot utility
 super + shift + u
 	maim --select | xclip -selection clipboard -t image/png
+
+#super + shift + a
+#	setxkbmap dvorak
+
+#super + shift + b 
+#	setxkbmap us
+
+# move window to an other workspace
+alt + shift + {Left,Right}
+    	id=$(bspc query --nodes --node); bspc node --to-desktop {prev,next}; bspc desktop --focus next; bspc node --focus ${id}

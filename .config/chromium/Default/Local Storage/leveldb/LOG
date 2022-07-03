@@ -1,0 +1,48 @@
+2022/04/30-14:22:04.344 3 Reusing MANIFEST /home/mechap/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2022/04/30-14:22:04.349 3 Recovering log #88
+2022/04/30-14:22:04.354 3 Reusing old log /home/mechap/.config/chromium/Default/Local Storage/leveldb/000088.log 
+2022/04/30-14:25:06.973 3 Level-0 table #92: started
+2022/04/30-14:25:06.974 3 Level-0 table #92: 21009 bytes OK
+2022/04/30-14:25:06.976 3 Delete type=0 #88
+2022/04/30-15:00:18.859 d Level-0 table #94: started
+2022/04/30-15:00:18.870 d Level-0 table #94: 20018 bytes OK
+2022/04/30-15:00:18.875 d Delete type=0 #91
+2022/04/30-15:00:18.875 10 Compacting 4@0 + 1@1 files
+2022/04/30-15:00:18.906 10 Generated table #95@0: 318 keys, 1553426 bytes
+2022/04/30-15:00:18.906 10 Compacted 4@0 + 1@1 files => 1553426 bytes
+2022/04/30-15:00:18.907 10 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/30-15:00:18.908 10 Delete type=2 #84
+2022/04/30-15:00:18.908 10 Delete type=2 #86
+2022/04/30-15:00:18.908 10 Delete type=2 #89
+2022/04/30-15:00:18.908 10 Delete type=2 #92
+2022/04/30-15:00:18.908 10 Delete type=2 #94
+2022/04/30-16:41:33.427 19 Level-0 table #97: started
+2022/04/30-16:41:33.439 19 Level-0 table #97: 14959 bytes OK
+2022/04/30-16:41:33.444 19 Delete type=0 #93
+2022/04/30-17:15:31.417 33 Level-0 table #99: started
+2022/04/30-17:15:31.438 33 Level-0 table #99: 14315 bytes OK
+2022/04/30-17:15:31.442 33 Delete type=0 #96
+2022/04/30-17:48:36.215 3b Level-0 table #101: started
+2022/04/30-17:48:36.228 3b Level-0 table #101: 14661 bytes OK
+2022/04/30-17:48:36.233 3b Delete type=0 #98
+2022/04/30-17:57:33.651 3b Level-0 table #103: started
+2022/04/30-17:57:33.673 3b Level-0 table #103: 26933 bytes OK
+2022/04/30-17:57:33.690 3b Delete type=0 #100
+2022/04/30-17:57:33.691 48 Compacting 4@0 + 1@1 files
+2022/04/30-17:57:33.757 48 Generated table #104@0: 325 keys, 1556174 bytes
+2022/04/30-17:57:33.757 48 Compacted 4@0 + 1@1 files => 1556174 bytes
+2022/04/30-17:57:33.758 48 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/30-17:57:33.758 48 Delete type=2 #95
+2022/04/30-17:57:33.758 48 Delete type=2 #97
+2022/04/30-17:57:33.758 48 Delete type=2 #99
+2022/04/30-17:57:33.758 48 Delete type=2 #101
+2022/04/30-17:57:33.758 48 Delete type=2 #103
+2022/04/30-18:26:04.657 4c Level-0 table #106: started
+2022/04/30-18:26:04.669 4c Level-0 table #106: 14034 bytes OK
+2022/04/30-18:26:04.673 4c Delete type=0 #102
+2022/04/30-18:49:15.882 64 Level-0 table #108: started
+2022/04/30-18:49:15.894 64 Level-0 table #108: 17113 bytes OK
+2022/04/30-18:49:15.899 64 Delete type=0 #105
+2022/04/30-19:16:00.318 73 Level-0 table #110: started
+2022/04/30-19:16:00.329 73 Level-0 table #110: 15533 bytes OK
+2022/04/30-19:16:00.334 73 Delete type=0 #107

@@ -1,0 +1,6 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons"
+}

@@ -1,0 +1,20 @@
+[2022-04-03 19:46:17.387] [renderer1] [error] [Extension Host] TypeError: Cannot read property 'packageJSON' of undefined
+	at m (/home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:59422)
+	at /home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:59088
+	at Generator.next (<anonymous>)
+	at /home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:58625
+	at new Promise (<anonymous>)
+	at a (/home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:58370)
+	at Object.t.checkThemeStatus (/home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:59018)
+	at /home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:52529
+	at Generator.next (<anonymous>)
+	at a (/home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:52022)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[2022-04-03 19:46:17.387] [renderer1] [error] [Extension Host] TypeError: Cannot read property 'packageJSON' of undefined
+	at Object.t.getConfigProperties (/home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:55948)
+	at a (/home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:53104)
+	at Object.t.detectConfigChanges (/home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:52934)
+	at /home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:52624
+	at Generator.next (<anonymous>)
+	at a (/home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5/dist/extension.js:1:52022)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)

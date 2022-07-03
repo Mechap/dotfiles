@@ -1,0 +1,11 @@
+13/06/22 (23:01:31) | ERROR: Data collection thread failed with exception: 'nice'
+Traceback (most recent call last):
+  File "/bin/bpytop", line 2959, in _runner
+    collector._draw()
+  File "/bin/bpytop", line 3991, in _draw
+    ProcBox._draw_fg()
+  File "/bin/bpytop", line 2771, in _draw_fg
+    (f'{proc.details["threads"]:^{iw}.{iw2}}' if expand > 0 else "") + (f'{proc.details["nice"]:^{iw}.{iw2}}' if expand > 1 else "") +
+KeyError: 'nice'
+13/06/22 (23:01:32) | WARNING: Exiting with errorcode (1). Runtime 6:37:45 
+

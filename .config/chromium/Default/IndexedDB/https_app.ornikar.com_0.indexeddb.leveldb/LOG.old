@@ -1,0 +1,6 @@
+2022/04/30-19:13:08.710 6238 Creating DB /home/mechap/.config/chromium/Default/IndexedDB/https_app.ornikar.com_0.indexeddb.leveldb since it was missing.
+2022/04/30-19:13:08.712 6238 Reusing MANIFEST /home/mechap/.config/chromium/Default/IndexedDB/https_app.ornikar.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/30-19:13:11.139 623a Level-0 table #5: started
+2022/04/30-19:13:11.141 623a Level-0 table #5: 2308 bytes OK
+2022/04/30-19:13:11.142 623a Delete type=0 #3
+2022/04/30-19:13:11.142 623a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -18,5 +18,14 @@ require'nvim-treesitter.configs'.setup {
         -- Instead of true it can also be a list of languages
         additional_vim_regex_highlighting = false,
     },
+    indent = {
+	enable = true
+    },
 }
 
+require('spellsitter').setup {
+    -- Whether enabled, can be a list of filetypes, e.g. {'python', 'lua'}
+    enable = true,
+}
+vim.o.spell = true
+vim.o.spelllang = "en_us,cjk"

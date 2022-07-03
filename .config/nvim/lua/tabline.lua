@@ -340,6 +340,6 @@ require('tabby').setup({ tabline = line })
 vim.api.nvim_set_keymap("n", "ta", ":$tabnew<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "tc", ":tabclose<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "to", ":tabonly<CR>", { noremap = true })
-vim.api.nvim_set_keymap("n", "tn", ":tabn<CR>", { noremap = true })
-vim.api.nvim_set_keymap("n", "tp", ":tabp<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<Tab>", ":tabn<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<S-Tab>", ":tabp<CR>", { noremap = true })
  

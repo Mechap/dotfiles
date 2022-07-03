@@ -1,0 +1,54 @@
+{
+   "checksum": "cedf29c3e0d4c96b56f37d9d1fe4c63d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13295465738783131",
+            "guid": "d7c2f56b-c213-42ba-8c19-28b17589b264",
+            "id": "5",
+            "name": "Hot Questions - Stack Exchange",
+            "type": "url",
+            "url": "https://stackexchange.com/"
+         }, {
+            "date_added": "13295465949547594",
+            "guid": "2615cf0c-1d5e-4489-8260-37e58c5d6672",
+            "id": "7",
+            "name": "index - 1Lab",
+            "type": "url",
+            "url": "https://1lab.dev/"
+         }, {
+            "date_added": "13295468534046067",
+            "guid": "fbdf0c81-2bbc-437b-ae5f-f68dbe1803ae",
+            "id": "8",
+            "name": "Reddit - Dive into anything",
+            "type": "url",
+            "url": "https://www.reddit.com/"
+         } ],
+         "date_added": "13295458470279386",
+         "date_modified": "13295468534046067",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13295458470279389",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13295458470279391",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

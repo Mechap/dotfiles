@@ -1,0 +1,6 @@
+2022/04/29-20:05:23.077 3 Reusing MANIFEST /home/mechap/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2022/04/29-20:05:23.084 3 Recovering log #85
+2022/04/29-20:05:23.086 3 Reusing old log /home/mechap/.config/chromium/Default/Local Storage/leveldb/000085.log 
+2022/04/29-20:15:45.803 8 Level-0 table #89: started
+2022/04/29-20:15:45.815 8 Level-0 table #89: 22625 bytes OK
+2022/04/29-20:15:45.820 8 Delete type=0 #85

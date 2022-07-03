@@ -9,20 +9,25 @@ return require('packer').startup(function()
 
     -- Lua Dev Facility
     use "folke/lua-dev.nvim"
+    use "glepnir/dashboard-nvim"
+    -- use 'matbme/JABS.nvim'
 
     -- Best Theme
     use { "ellisonleao/gruvbox.nvim" }
+    --use { "morhetz/gruvbox" }
 
     -- TreeSitter
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate'
     }
+    use 'lewis6991/spellsitter.nvim'
 
     -- LSP utils
     use 'neovim/nvim-lspconfig'
     use 'hrsh7th/nvim-cmp' -- Autocompletion plugin
     use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
+    use 'kdheepak/cmp-latex-symbols' -- Latex symbols for nvim-cmp
     use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'onsails/lspkind-nvim' -- completion items
@@ -33,9 +38,16 @@ return require('packer').startup(function()
     use 'ray-x/lsp_signature.nvim'
 
     use 'tami5/lspsaga.nvim'
+    use "lukas-reineke/indent-blankline.nvim"
 
     -- Icons
     use 'kyazdani42/nvim-web-devicons'
+    use {
+	'kyazdani42/nvim-tree.lua',
+	requires = {
+	    'kyazdani42/nvim-web-devicons', -- optional, for file icon
+	}
+    }
 
     -- Git 
     use "lewis6991/gitsigns.nvim"
@@ -47,6 +59,8 @@ return require('packer').startup(function()
     use {'nvim-telescope/telescope-ui-select.nvim' },
 
     use "nanozuki/tabby.nvim",
+    use "feline-nvim/feline.nvim",
+    use "SmiteshP/nvim-gps",
     use {
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }

@@ -1,0 +1,20 @@
+name = "Your full name"
+downloads-dir = "/abs/path/to/downloads"
+signature = """
+Cordialement,
+Regards,
+"""
+
+[gmail]
+default = true
+email = "simongregoire007@gmail.com"
+
+imap-host = "imap.gmail.com"
+imap-port = 993
+imap-login = "simongregoire007@gmail.com"
+imap-passwd-cmd = "Maansi31415"
+
+smtp-host = "smtp.gmail.com"
+smtp-port = 465
+smtp-login = "simongregoire007@gmail.com"
+smtp-passwd-cmd = "security find-internet-password -gs gmail -w"

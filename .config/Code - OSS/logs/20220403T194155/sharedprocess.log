@@ -1,0 +1,40 @@
+[2022-04-03 19:41:56.754] [sharedprocess] [info] Starting worker process with pid 2950 (type: fileWatcher, window: 1).
+[2022-04-03 19:42:13.450] [sharedprocess] [info] Getting Manifest... jdinhlife.gruvbox
+[2022-04-03 19:42:13.456] [sharedprocess] [info] Installing extension: jdinhlife.gruvbox
+[2022-04-03 19:42:45.975] [sharedprocess] [info] Downloaded extension: jdinhlife.gruvbox /home/mechap/.config/Code - OSS/CachedExtensionVSIXs/jdinhlife.gruvbox-1.5.1
+[2022-04-03 19:42:46.014] [sharedprocess] [info] Extracted extension to /home/mechap/.vscode-oss/extensions/.e1c9d73d-d6cf-4e21-a107-441c11736688: jdinhlife.gruvbox
+[2022-04-03 19:42:46.017] [sharedprocess] [info] Renamed to /home/mechap/.vscode-oss/extensions/jdinhlife.gruvbox-1.5.1
+[2022-04-03 19:42:46.017] [sharedprocess] [info] Extracting completed. jdinhlife.gruvbox
+[2022-04-03 19:42:46.018] [sharedprocess] [info] Extension installed successfully: jdinhlife.gruvbox
+[2022-04-03 19:46:12.704] [sharedprocess] [info] Getting Manifest... jonathanharty.gruvbox-material-icon-theme
+[2022-04-03 19:46:12.708] [sharedprocess] [info] Installing extension: jonathanharty.gruvbox-material-icon-theme
+[2022-04-03 19:46:16.997] [sharedprocess] [info] Downloaded extension: jonathanharty.gruvbox-material-icon-theme /home/mechap/.config/Code - OSS/CachedExtensionVSIXs/jonathanharty.gruvbox-material-icon-theme-1.1.5
+[2022-04-03 19:46:17.291] [sharedprocess] [info] Extracted extension to /home/mechap/.vscode-oss/extensions/.34c5c513-86d1-4c3f-a77b-5b1106b5fe4b: jonathanharty.gruvbox-material-icon-theme
+[2022-04-03 19:46:17.294] [sharedprocess] [info] Renamed to /home/mechap/.vscode-oss/extensions/jonathanharty.gruvbox-material-icon-theme-1.1.5
+[2022-04-03 19:46:17.294] [sharedprocess] [info] Extracting completed. jonathanharty.gruvbox-material-icon-theme
+[2022-04-03 19:46:17.295] [sharedprocess] [info] Extension installed successfully: jonathanharty.gruvbox-material-icon-theme
+[2022-04-03 19:46:23.618] [sharedprocess] [info] Getting Manifest... sumneko.lua
+[2022-04-03 19:46:23.623] [sharedprocess] [info] Installing extension: sumneko.lua
+[2022-04-03 19:46:41.496] [sharedprocess] [info] Downloaded extension: sumneko.lua /home/mechap/.config/Code - OSS/CachedExtensionVSIXs/sumneko.lua-2.6.7-linux-x64
+[2022-04-03 19:46:41.870] [sharedprocess] [info] Extracted extension to /home/mechap/.vscode-oss/extensions/.8e77b759-99fd-489f-b9e7-ebbdcc88b1e5: sumneko.lua
+[2022-04-03 19:46:41.883] [sharedprocess] [info] Renamed to /home/mechap/.vscode-oss/extensions/sumneko.lua-2.6.7
+[2022-04-03 19:46:41.884] [sharedprocess] [info] Extracting completed. sumneko.lua
+[2022-04-03 19:46:41.885] [sharedprocess] [info] Extension installed successfully: sumneko.lua
+[2022-04-03 19:53:49.472] [sharedprocess] [info] Uninstalling extension: sumneko.lua
+[2022-04-03 19:53:49.530] [sharedprocess] [info] Detected extension removed from another source sumneko.lua
+[2022-04-03 19:53:50.011] [sharedprocess] [info] Successfully uninstalled extension: sumneko.lua
+[2022-04-03 19:59:18.452] [sharedprocess] [info] Getting Manifest... miguelsolorio.fluent-icons
+[2022-04-03 19:59:18.457] [sharedprocess] [info] Installing extension: miguelsolorio.fluent-icons
+[2022-04-03 19:59:31.627] [sharedprocess] [info] Downloaded extension: miguelsolorio.fluent-icons /home/mechap/.config/Code - OSS/CachedExtensionVSIXs/miguelsolorio.fluent-icons-0.0.17
+[2022-04-03 19:59:31.765] [sharedprocess] [info] Extracted extension to /home/mechap/.vscode-oss/extensions/.abf9b348-295c-4b88-a89f-4e45a1b9be7e: miguelsolorio.fluent-icons
+[2022-04-03 19:59:31.768] [sharedprocess] [info] Renamed to /home/mechap/.vscode-oss/extensions/miguelsolorio.fluent-icons-0.0.17
+[2022-04-03 19:59:31.769] [sharedprocess] [info] Extracting completed. miguelsolorio.fluent-icons
+[2022-04-03 19:59:31.769] [sharedprocess] [info] Extension installed successfully: miguelsolorio.fluent-icons
+[2022-04-03 20:03:53.372] [sharedprocess] [info] Getting Manifest... matklad.rust-analyzer
+[2022-04-03 20:03:53.377] [sharedprocess] [info] Installing extension: matklad.rust-analyzer
+[2022-04-03 20:04:35.987] [sharedprocess] [info] Downloaded extension: matklad.rust-analyzer /home/mechap/.config/Code - OSS/CachedExtensionVSIXs/matklad.rust-analyzer-0.2.993-linux-x64
+[2022-04-03 20:04:36.163] [sharedprocess] [info] Extracted extension to /home/mechap/.vscode-oss/extensions/.726cf085-316a-465f-a999-1d05525317ee: matklad.rust-analyzer
+[2022-04-03 20:04:36.174] [sharedprocess] [info] Renamed to /home/mechap/.vscode-oss/extensions/matklad.rust-analyzer-0.2.993
+[2022-04-03 20:04:36.175] [sharedprocess] [info] Extracting completed. matklad.rust-analyzer
+[2022-04-03 20:04:36.176] [sharedprocess] [info] Extension installed successfully: matklad.rust-analyzer
+[2022-04-03 23:01:31.798] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

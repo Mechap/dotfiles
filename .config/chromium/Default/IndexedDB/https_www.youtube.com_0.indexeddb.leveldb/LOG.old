@@ -1,0 +1,14 @@
+2022/04/26-18:45:48.258 7182 Reusing MANIFEST /home/mechap/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/26-18:45:48.258 7182 Recovering log #4
+2022/04/26-18:45:48.258 7182 Reusing old log /home/mechap/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2022/04/26-18:45:48.495 7199 Level-0 table #8: started
+2022/04/26-18:45:48.496 7199 Level-0 table #8: 669 bytes OK
+2022/04/26-18:45:48.497 7199 Delete type=0 #4
+2022/04/26-18:45:48.497 7199 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/26-18:45:48.497 7199 Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 163 : 0
+2022/04/26-18:45:48.497 7199 Compacting 1@1 + 1@2 files
+2022/04/26-18:45:48.498 7199 Generated table #9@1: 23 keys, 773 bytes
+2022/04/26-18:45:48.498 7199 Compacted 1@1 + 1@2 files => 773 bytes
+2022/04/26-18:45:48.499 7199 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/26-18:45:48.499 7199 Delete type=2 #8
+2022/04/26-18:45:48.499 7199 Manual compaction at level-1 from '\x00\x02\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 163 : 0 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

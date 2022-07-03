@@ -1,0 +1,40 @@
+{
+   "checksum": "99957c4bb7bea93c0336965dbc46c066",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13295465738783131",
+            "guid": "d7c2f56b-c213-42ba-8c19-28b17589b264",
+            "id": "5",
+            "name": "Hot Questions - Stack Exchange",
+            "type": "url",
+            "url": "https://stackexchange.com/"
+         } ],
+         "date_added": "13295458470279386",
+         "date_modified": "13295465738783131",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13295458470279389",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13295458470279391",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

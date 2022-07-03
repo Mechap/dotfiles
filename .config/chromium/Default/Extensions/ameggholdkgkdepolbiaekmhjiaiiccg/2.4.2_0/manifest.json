@@ -1,0 +1,26 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "lib/jquery/jquery-3.4.1.js", "inject.js" ],
+      "matches": [ "https://*/*", "http://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://*.googleapis.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi/9lJHrf4sgCNL8a9OwToN5uohL/cSQQLCZknshgnmKL/22761APddU/CPQnHk6J4g9TTO5x3PRH8MPSBJ7C9zG252+xPzoo33SCOiPBH6PcS1u2dI20llPfJJ/9kCy3Fxv10FE77Fp44lEUzZ+sPCL3g+tSrjiseNtVY7VMBXZBrxnH0wOxbqYCAlbacxy3z/w/10gLcPzwqyK/FIsbSY/BOBmZiWvHHXcP2dQAlrZMuMnqj8VbxLC5xZBpVNZ2N/u0PYZCDtf21puHXTanmMyZ8zHYX/PqobcsrQeLEbtUM0Xg72VaqD08v/tgHxlpMgkbHHoAzk7U8EzYFDMPxwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "fontSettings", "https://*/*", "http://*/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4.2"
+}

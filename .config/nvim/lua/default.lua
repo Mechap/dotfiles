@@ -1,6 +1,6 @@
 local options = {
     backup = false,                          -- creates a backup file
-    clipboard = "unnamedplus",               -- allows neovim to access the system clipboard
+    --clipboard = "unnamedplus",               -- allows neovim to access the system clipboard
     cmdheight = 2,                           -- more space in the neovim command line for displaying messages
     completeopt = { "menuone", "noselect" }, -- mostly just for cmp
     conceallevel = 0,                        -- so that `` is visible in markdown files
@@ -30,7 +30,8 @@ local options = {
     relativenumber = false,                  -- set relative numbered lines
     numberwidth = 2,                         -- set number column width to 2 {default 4}
     signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
-    wrap = false,                            -- display lines as one long line
+    wrap = true,                            -- display lines as one long line
+    linebreak = true,
     scrolloff = 8,                           -- is one of my fav
     sidescrolloff = 8,
     guifont = "monospace:h17",               -- the font used in graphical neovim applications
@@ -50,16 +51,66 @@ vim.cmd([[colorscheme gruvbox]])
 
 vim.cmd([[highlight clear SignColumn]])
 
-vim.cmd([[set laststatus=0]])
+--vim.cmd([[set laststatus=0]])
 
 -- Telescope keymap
 vim.api.nvim_set_keymap("n", "fe", ":Telescope fd<CR>", { noremap = true })
-vim.api.nvim_set_keymap("n", "fb", ":Telescope live_grep<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "fb", ":Telescope current_buffer_fuzzy_find<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "ft", ":Telescope treesitter<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "fd", ":Telescope lsp_document_symbols<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "fr", ":Telescope lsp_references<CR>", { noremap = true })
 vim.api.nvim_set_keymap("n", "fs", ":Telescope lsp_dynamic_workspace_symbols<CR>", { noremap = true })
-vim.api.nvim_set_keymap("n", "fg", ":Telescope git_status<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "fg", ":suspend<CR>", { noremap = true })
+-- vim.api.nvim_set_keymap("n", "fg", ":Telescope live_grep<CR>", { noremap = true })
 
+-- Latex compilation
+-- vim.api.nvim_set_keymap("n", "le", ":!zsh ./compile.sh<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "le", ":make<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "ze", ":!zathura build/main.pdf<CR>", { noremap = true })
 
+vim.opt.list = true
+vim.opt.listchars:append("eol:↴")
 
+require("indent_blankline").setup {
+    -- for example, context is off by default, use this to turn it on
+    show_current_context = true,
+    --show_current_context_start = true,
+    show_end_of_line = true,
+    buftype_exclude = { "terminal" },
+    filetype_exclude = { "dashboard" },
+}
+
+vim.g.dashboard_custom_section = {
+   a = {
+      description = { "  Find File          " },
+      command = "Telescope find_files",
+   },
+   b = {
+      description = { "  New File           " },
+      command = ":ene!",
+   },
+   c = {
+      description = { "  Recent Projects    " },
+      command = "Telescope projects",
+   },
+   d = {
+      description = { "  Recently Used Files" },
+      command = "Telescope oldfiles",
+   },
+}
+vim.g.dashboard_custom_footer = {"to the stars!!!1!"}
+vim.g.dashboard_default_executive = "telescope"
+vim.g.dashboard_executive = "telescope"
+vim.g.dashboard_preview_command = 'chafa -c 256 --fg-only --symbols braille'
+vim.g.dashboard_preview_file = '~/.config/nvim/LAINHADN3.gif'
+vim.g.dashboard_preview_file_height = 23
+vim.g.dashboard_preview_file_width = 28
+
+vim.cmd([[hi PmenuSbar guibg=none]])
+vim.cmd([[hi PmenuThumb guibg=none]])
+
+vim.cmd([[hi! link IndentBlanklineContextChar GruvboxFg1]])
+
+require'nvim-tree'.setup {
+}
+vim.cmd([[ let g:tex_flavor = "latex" ]])
